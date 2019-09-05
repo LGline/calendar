@@ -294,8 +294,8 @@
           }
         } else {
           // this.$message({type:'warning',message:'请输入或选择事件名称',duration:2000,center:true});
-          this.calendarData[targetElementMark].color = color;
         }
+        this.calendarData[targetElementMark].color = color;
       },
       // 颜色选择面板关闭
       colorPanelColose({targetElementMark}) {
